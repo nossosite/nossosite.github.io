@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    /* Engloda todos os elementedo do conteúdo */
+}
+
+body {
+    margin: 0px;
+    /* Elimina a margin do body */
+}
+
+.padrao {
+    border: 1px red solid;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.secundaria {
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.teste3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: content-box;
+    /* Considera o tamanho do conteúdo, incluindo padding e border*/
+}
+
+/* Link / Ancora */
+
+.link {
+    /* Configuração padrão para todos os links */
+    color: green;
+    font-size: 30px;
+}
+
+.link:hover {
+    /* Ao passar o mouse em cima  */
+    color: blue;
+}
+
+.link:visited {
+    /* link visitado */
+    color: black;
+}
+
+mark {
+    background-color: blue;
+}
